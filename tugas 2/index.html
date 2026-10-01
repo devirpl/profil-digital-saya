@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Profil Digital Responsive - Devi Lutfika Cahyani</title>
+
+    <!-- Menghubungkan HTML dengan CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="page-wrapper">
+
+        <!-- Kartu Profil Utama -->
+        <article class="profile-card">
+
+            <!-- Kolom Kiri / Header Profil -->
+            <header class="card-aside">
+
+    <button id="btnToggleTema" class="btn-tema">
+        ☀️ Ganti Mode
+    </button>
+
+                <div class="avatar-box">
+                    👩‍💻
+                </div>
+
+                <h1 class="student-name">
+                    Devi Lutfika Cahyani
+                </h1>
+
+                <p class="student-role">
+                    Junior Web Developer
+                </p>
+
+                <p class="student-school">
+                    SMK Brantas Karangkates — PPLG 
+                </p>
+
+                <a href="mailto:devirpl01@gmail.com"
+                id="btnKontak"
+                   class="btn-contact">
+                    Kirim Pesan
+                </a>
+                <button id="btnCopyEmail" class="btn-copy" aria-label="Salin email">
+                    📋 Salin Email
+                </button>
+
+            </header>
+
+            <!-- Kolom Kanan / Konten Detail -->
+            <section class="card-content">
+
+                <!-- Tentang Saya -->
+                <div class="bio-section">
+
+                    <h2 class="section-heading">
+                        Tentang Saya
+                    </h2>
+
+                    <p class="bio-text">
+                        Siswa kelas 10 Rekayasa Perangkat Lunak
+                        yang berfokus mendalami arsitektur Front-End
+                        modern, tata letak CSS Flexbox, serta prinsip
+                        Mobile-First Responsive Design standar industri.
+                    </p>
+
+                </div>
+
+                <!-- Keahlian dan Kompetensi -->
+                <div class="skills-section">
+
+                    <h2 class="section-heading">
+                        Keahlian &amp; Kompetensi
+                    </h2>
+
+                    <div class="skill-matrix">
+
+                        <div class="skill-badge">
+                            HTML5 Semantic
+                        </div>
+
+                        <div class="skill-badge">
+                            CSS3 Flexbox
+                        </div>
+
+                        <div class="skill-badge">
+                            Responsive Design
+                        </div>
+
+                        <div class="skill-badge">
+                            Media Queries
+                        </div>
+
+                        <div class="skill-badge">
+                            Chrome DevTools
+                        </div>
+
+                        <div class="skill-badge">
+                            Git &amp; GitHub (Next)
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+        </article>
+
+    </main>
+
+
+<div id="modalKontak" class="modal-overlay">
+    <div class="modal-box">
+        <h2>Kirim Pesan</h2>
+        <p>Silakan hubungi saya melalui email: devirpl01@gmail.com</p>
+
+        <button id="btnTutupModal" class="btn-tutup">
+            Tutup
+        </button>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
